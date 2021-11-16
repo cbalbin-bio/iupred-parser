@@ -5,7 +5,7 @@ This is an IUPRED2A result parser capable of parsing result files containing res
 Showing the title and a array with the IUPRED scores, where index i will correspond to index i in the ammino acid sequence, for the first sequence:
 ```python3
 >>> from iupred_parser import IUPREDParser
-
+>>>
 >>> for iupred_seq in IUPREDParser("iupred_result_file.result"):
 ...     print(iupred_seq.title)
 ...     print(iupred_seq.iupred_score)
